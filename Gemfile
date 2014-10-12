@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'high_voltage'
+gem 'railties'
 group :development do
   gem 'rails_layout'
 end
