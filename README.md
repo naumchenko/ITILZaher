@@ -10,11 +10,12 @@ This application requires:
 
 Getting Started
 ---------------
-cd /vagrant; sudo bundle install
-
-rake db:migrate
-
-rails s
+1) git clone https://github.com/naumchenko/ITILZaher.git
+2) cd ITILZaher; vagrant up
+3) vagrant ssh
+4) cd /vagrant; sudo bundle install
+5) rake db:migrate
+6) rails s
 
 Should be accesible on http://localhost:3000
 
