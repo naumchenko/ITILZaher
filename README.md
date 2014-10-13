@@ -10,6 +10,13 @@ This application requires:
 
 Getting Started
 ---------------
+cd /vagrant; sudo bundle install
+
+rake db:migrate
+
+rails s
+
+Should be accesible on http://localhost:3000
 
 Documentation and Support
 -------------------------
