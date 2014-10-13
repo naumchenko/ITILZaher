@@ -1,17 +1,10 @@
+#
+# Author: Alex Naumchenko
+# App: ITILZaher - Light CMDB for ITIL projects
+#
 Vagrant.configure ("2") do |config|
   config.vm.box = "hashicorp/precise32"
   config.vm.network "forwarded_port", guest: 3000, host: 3000
   config.vm.provision :shell,  path: "bootstrap.sh"
-chef.cookbooks_path = ["chef-repo/cookbooks", "chef-repo/site-cookbooks"]
-
-  # config.vm.provision "chef_solo" do |chef|
-  #   chef.cookbooks_path = "../my-recipes/cookbooks"
-  #   chef.roles_path = "../my-recipes/roles"
-  #   chef.data_bags_path = "../my-recipes/data_bags"
-  #   chef.add_recipe "mysql"
-  #   chef.add_role "web"
-  #
-  #   # You may also specify custom JSON attributes:
-  #   chef.json = { mysql_password: "foo" }
-  # end
+  chef.cookbooks_path = ["chef-repo/cookbooks", "chef-repo/site-cookbooks"]
 end
