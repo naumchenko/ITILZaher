@@ -10,6 +10,9 @@ This application requires:
 
 Getting Started
 ---------------
+cd /vagrant; sudo bundle install
+rake db:migrate
+rails s
 
 Documentation and Support
 -------------------------
