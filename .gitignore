@@ -9,12 +9,12 @@
 # Corrections? Improvements? Create a GitHub issue:
 # http://github.com/RailsApps/rails-composer/issues
 #----------------------------------------------------------------------------
-/bootstrap.sh
+#/bootstrap.sh
 # bundler state
 /.bundle
 /vendor/bundle/
 /vendor/ruby/
-/.vagrant/
+/.vagrant/*
 # minimal Rails specific artifacts
 db/*.sqlite3
 /db/*.sqlite3-journal
