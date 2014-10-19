@@ -1,8 +1,5 @@
 Prism
 ================
-Ruby on Rails
--------------
-
 This application requires:
 
 - Ruby 2.1.2
@@ -10,6 +7,7 @@ This application requires:
 
 Getting Started
 ---------------
+
 1) git clone https://github.com/naumchenko/prism.git
 
 2) cd prism; vagrant up
@@ -24,20 +22,5 @@ Getting Started
 
 Should be accesible on http://localhost:3000
 
-Documentation and Support
--------------------------
 
-Issues
--------------
 
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
