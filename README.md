@@ -10,9 +10,9 @@ This application requires:
 
 Getting Started
 ---------------
-1) git clone https://github.com/naumchenko/ITILZaher.git
+1) git clone https://github.com/naumchenko/prism.git
 
-2) cd ITILZaher; vagrant up
+2) cd prism; vagrant up
 
 3) vagrant ssh
 
