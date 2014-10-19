@@ -1,4 +1,4 @@
-Itilzaher
+Prism
 ================
 Ruby on Rails
 -------------
