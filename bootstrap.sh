@@ -1,6 +1,5 @@
 #
 # Author: Alex Naumchenko
-# App: ITILZaher - Light CMDB for ITIL projects
 #
 sudo apt-get install curl git nodejs -y
 \curl -sSL https://get.rvm.io | sudo bash -s stable
