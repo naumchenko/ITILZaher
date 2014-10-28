@@ -1,6 +1,5 @@
 #
 # Author: Alex Naumchenko
-# App: ITILZaher - Light CMDB for ITIL projects
 #
 Vagrant.configure ("2") do |config|
   config.vm.box = "hashicorp/precise32"
